@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="x-icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>CountDown Timer</title>
+</head>
+
+<body>
+    <div class="countDownTimer">
+        <p class="cdText">Countdown Timer</p>
+        <section class="chooseModule">
+            <form class="inputMenu">
+                <p class="enterText">Set Date or Time:</p>
+                <input type="date" class="date" required>
+                <input type="time" class="time" required>
+                <button type="submit" class="ok">OK</button>
+            </form>
+        </section>
+        <section class="countDown ">
+            <div class="days">
+                <span class="day">0</span>
+                <span class="text">Days:</span>
+            </div>
+            <div class="hours">
+                <span class="hour">0</span>
+                <span class="text">Hours:</span>
+            </div>
+            <div class="minutes">
+                <span class="minute">0</span>
+                <span class="text">Minutes:</span>
+            </div>
+            <div class="seconds">
+                <span class="second">0</span>
+                <span class="text">Seconds:</span>
+            </div>
+            <div class="buttons">
+                <button class="stop">Stop</button>
+                <button class="restart">Restart</button>
+                <button class="reset">Reset</button>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="script.js">
+
+</script>
+
+</html>
